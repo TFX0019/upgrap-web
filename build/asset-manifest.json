@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.01de59c3.chunk.css",
+    "main.js": "/static/js/main.b70bfb1a.chunk.js",
+    "main.js.map": "/static/js/main.b70bfb1a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8fb12cab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8fb12cab.js.map",
+    "static/css/2.91978e12.chunk.css": "/static/css/2.91978e12.chunk.css",
+    "static/js/2.c1b143d4.chunk.js": "/static/js/2.c1b143d4.chunk.js",
+    "static/js/2.c1b143d4.chunk.js.map": "/static/js/2.c1b143d4.chunk.js.map",
+    "static/js/3.49c63a39.chunk.js": "/static/js/3.49c63a39.chunk.js",
+    "static/js/3.49c63a39.chunk.js.map": "/static/js/3.49c63a39.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.91978e12.chunk.css.map": "/static/css/2.91978e12.chunk.css.map",
+    "static/css/main.01de59c3.chunk.css.map": "/static/css/main.01de59c3.chunk.css.map",
+    "static/js/2.c1b143d4.chunk.js.LICENSE.txt": "/static/js/2.c1b143d4.chunk.js.LICENSE.txt",
+    "static/media/fb.8f28993b.svg": "/static/media/fb.8f28993b.svg",
+    "static/media/fig2.47fc045a.svg": "/static/media/fig2.47fc045a.svg",
+    "static/media/footer.e402357d.svg": "/static/media/footer.e402357d.svg",
+    "static/media/home.508de58b.svg": "/static/media/home.508de58b.svg",
+    "static/media/img1.76a54b86.svg": "/static/media/img1.76a54b86.svg",
+    "static/media/instagram.9b8d42a0.svg": "/static/media/instagram.9b8d42a0.svg",
+    "static/media/letter.25fc591c.svg": "/static/media/letter.25fc591c.svg",
+    "static/media/login.7d5cde33.svg": "/static/media/login.7d5cde33.svg",
+    "static/media/logob.c44ee2f1.svg": "/static/media/logob.c44ee2f1.svg",
+    "static/media/logov.9b6abb2c.svg": "/static/media/logov.9b6abb2c.svg",
+    "static/media/no-image.d44da298.jpg": "/static/media/no-image.d44da298.jpg",
+    "static/media/notification.9d15c88c.ogg": "/static/media/notification.9d15c88c.ogg",
+    "static/media/tiktok.ec3441c4.svg": "/static/media/tiktok.ec3441c4.svg",
+    "static/media/timeline.0801f9c1.svg": "/static/media/timeline.0801f9c1.svg",
+    "static/media/twitter.7e1d72c3.svg": "/static/media/twitter.7e1d72c3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fb12cab.js",
+    "static/css/2.91978e12.chunk.css",
+    "static/js/2.c1b143d4.chunk.js",
+    "static/css/main.01de59c3.chunk.css",
+    "static/js/main.b70bfb1a.chunk.js"
+  ]
+}

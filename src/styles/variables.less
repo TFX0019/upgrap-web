@@ -1,0 +1,51 @@
+@primary-color: #32BAB0; // primary color for all components
+@link-color: #BDBDBD; // link color
+@success-color: #32BAB0; // success state color
+//@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+@font-size-base: 14px; // major text font size
+@heading-color: rgba(0, 0, 0, 0.85); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
+@disabled-color: rgba(0, 0, 0, 0.25); // disable state color
+@border-radius-base: 4px; // major border radius
+@border-color-base: #d9d9d9; // major border color
+@box-shadow-base: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+@orange-color: #ffd483;
+
+//
+@comforta: 'Montserrat', sans-serif;
+
+
+//globals
+
+.cube_btn {
+    border-radius: 0;
+}
+
+.input_new, .input_new input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid @link-color;
+    background: none !important;
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+.ant-form-item-has-error .ant-input:focus, .ant-form-item-has-error .ant-input-affix-wrapper:focus {
+    box-shadow: none !important;
+}
+.ant-select-selector {
+    border: none !important;
+    background: none !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid @link-color !important;
+}
+
+.ant-layout-sider {
+    min-width: 300 !important;
+    width: 300 !important;
+}

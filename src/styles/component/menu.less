@@ -1,0 +1,72 @@
+.menu_prima {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    position: relative;
+    .menuMovil {
+        position: fixed;
+        left: -256px;
+        top: 0;
+        height: 100vh;
+        z-index: 999;
+        transition: all ease-in-out .5s;
+    }
+    .showMenu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 999;
+        transition: all ease-in-out .5s;
+    }
+    .search {
+        margin-left: 10px;
+        width: 300px;
+    }
+    .c1 {
+        display: flex;
+        align-items: center;
+        a {
+            margin-right: 30px;
+            img {
+                width: 100px;
+            }
+        }
+
+    }
+    a {
+        &:hover {
+            color: @primary-color;
+        }
+    }
+    .rds {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        a {
+            margin-right: 10px;
+        }
+    }
+
+}
+
+.iconC {
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+    display: block;
+    transition: all ease-in-out .3s;
+    .iconR {
+        transition: all ease-in-out .3s;
+        fill: @link-color;
+    }
+    &:hover {
+        .iconR {
+            fill: @primary-color;
+        }
+    }
+}

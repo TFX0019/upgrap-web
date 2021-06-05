@@ -1,0 +1,77 @@
+.chat_main{
+    padding: 30px;
+    .chat_card {
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 0 !important;
+        .ant-card-head {
+            background: @primary-color;
+            color: #fff;
+        }
+        .ant-card-body {
+            .col_chat {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .zone_messages {
+                    min-width: 100%;
+                    padding: 20px;
+                    overflow: auto;
+                    // overflow-x: hidden;
+                    max-height: 55vh;
+                    .container_right {
+                        width: 100%;
+                        text-align: right;
+                        margin-top: 8px;
+                        .messageRight{
+                            margin: 0;
+                            background: @link-color;
+                            border: none;
+                            display: inline-block;
+                            color: white;
+                            padding: 5px;
+                            border-radius: 5px;
+                        }
+                    }
+                    .container_left {
+                        width: 100%;
+                        text-align: left;
+                        margin-top: 8px;
+                        .mesageTag {
+                            background: @primary-color;
+                            border: none;
+                            border-radius: 5px;
+                            margin: 0;
+                            color: #fff !important;
+                            display: inline-block;
+                            color: rgb(146, 134, 134);
+                            padding: 5px;
+                            text-align: left;
+                        }
+                    }
+                }
+                ::-webkit-scrollbar {
+                    width: 10px;
+                    height: 10px;
+                    background: #eeeeee;
+                }
+                ::-webkit-scrollbar-thumb {
+                    border-radius: 5px;
+                    background: @primary-color;
+                }
+                .zone_input {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 10%;
+                }
+            }
+        }
+    }
+    .inputfile {
+        position: absolute;
+        visibility: hidden;
+        z-index: 999;
+    }
+}
